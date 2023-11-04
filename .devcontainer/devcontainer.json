@@ -1,9 +1,6 @@
 {
 	"name": "Elixir Phoenix",
-	"image": "hexpm/elixir:1.16.0-rc.0-erlang-26.1.2-ubuntu-focal-20231003",
-	"features": {
-	  "ghcr.io/devcontainers-contrib/features/curl-apt-get:1": {}
-	},
+	"image": "hexpm/elixir:1.15.7-erlang-26.1.2-alpine-3.17.5",
 	"customizations": {
 		"vscode": {
 			"settings": {},
