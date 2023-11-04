@@ -10,5 +10,6 @@
 		}
 	},
 	"onCreateCommand": "elixir --version",
+	"postCreateCommand": "apk add curl",
 	"forwardPorts": [4000]
 }
