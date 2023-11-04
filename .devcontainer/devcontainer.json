@@ -1,0 +1,14 @@
+{
+	"name": "Elixir Phoenix",
+	"image": "hexpm/elixir:1.16.0-rc.0-erlang-26.1.2-ubuntu-focal-20231003",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"streetsidesoftware.code-spell-checker"
+			]
+		}
+	},
+	"onCreateCommand": "elixir --version",
+	"forwardPorts": [4000]
+}
